@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Reservaciones";
+}
+<h1>@ViewData["Title"]</h1>
+
+@ViewBag.Misegundodato
+   
+<div class=cointainer style="padding: 2% 5% 1% 10%">
+            <form style="position: relative" method="get"> 
+                        <div class="form-group">
+                        <label class="" for="">Nombre:</label>
+                        <input type="text"   class="form-control" placeholder= "Nombre" name="name" required><br>
+                        
+                        <label class="" for="">Apellido:</label>
+                        <input type="text"  class="form-control" placeholder= "Apellido" name="Sname" required><br>
+                        
+                        <label class="" for="">Fecha de reserva:</label>
+                        <input type="date"  class="form-control" placeholder="Fecha de reserva" name="DateB" required><br>
+
+                        <label class="" for="">Hora:</label>
+                        <input type="time"  class="form-control" placeholder="Hora" name="DatB" required><br>
+                       
+                        <label class="" for="">E-mail:</label>
+                        <input type="email"   class="form-control" placeholder= "micorreo@email.com"  name="Email" required><br /> 
+                        
+                        <label class="" for="">Cantidad de personas:</label>
+                        <input type="number"   class="form-control" placeholder= "Cantidad de personas" name="Passwd" required><br>
+                       </div>
+                    </form>
+                    <div class="checkbox">
+                            <label><input type="checkbox"> Enviar comprobante de reserva</label>
+                        </div>
+                    <div>
+                        <button type="submit" class="btn"style="border: 3px; border-radius: 3px;background-color:#d9ad7c;">Enviar</button>
+                     </div>
+                        </div>
+
+
+
+

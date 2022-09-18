@@ -1,0 +1,33 @@
+﻿@model List<resDesli.Models.platos>
+@{
+    ViewData["Title"] = "Menu";
+}
+<h3>Menú Provicional</h3>
+<table>
+    <thead>
+        <tr>
+        <th>Nombre</th>
+        <th>Descripción del plato</th>
+        <th>Precio</th>
+        <th>Imagen</th>
+       <tr/>     
+    </thead>
+    <tbody>
+    @foreach (var platos in Model)
+    {
+   <tr>
+       <td>@platos.Nombre</td>
+       <td>@platos.Descripcion</td>
+       <td>@platos.Precio</td>
+       <th><img style="height:10%; width:10%" src="https://cdn-icons-png.flaticon.com/512/5854/5854248.png"></th>
+   </tr>
+    }
+    </tbody>
+</table>
+
+<br>
+
+@ViewBag.Mensaje
+
+
+
