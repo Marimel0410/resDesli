@@ -29,6 +29,14 @@ namespace resDesli
                 Precio = "$430.98"
             };
 
+
+            var plato2_1 = new platos()
+            {
+                Nombre = "Pollo FRITO",
+                Descripcion = "Porción de pollo aromatizado con finas especias",
+                Precio = "$430.98"
+            };
+
             var plato3 = new platos()
             {
                 Nombre = "Arroz de colores",
@@ -39,6 +47,13 @@ namespace resDesli
             var plato4 = new platos()
             {
                 Nombre = "Flan de leche",
+                Descripcion = "Delicioso flan de leche con cubierta de caramelo",
+                Precio = "$130.00"
+            };
+
+            var plato4_1 = new platos()
+            {
+                Nombre = "Browny FLAN",
                 Descripcion = "Delicioso flan de leche con cubierta de caramelo",
                 Precio = "$130.00"
             };
