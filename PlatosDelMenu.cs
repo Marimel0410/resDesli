@@ -58,6 +58,13 @@ namespace resDesli
                 Precio = "$130.00"
             };
 
+            var plato4_ = new platos()
+            {
+                Nombre = "Browny FLAN Extra",
+                Descripcion = "Delicioso flan de leche con cubierta de caramelo",
+                Precio = "$230.00"
+            };
+
             return new List<platos> { plato1, plato2, plato3, plato4 };
 
 
